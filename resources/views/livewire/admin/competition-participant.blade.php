@@ -63,7 +63,7 @@
                                                 <td>{{$user->team}}</td>
                                                 <td>{{$user->phone}}</td>
                                                 <td>
-                                                    <a href="/dashboard/accounts/{{$user->id}}" wire:navigate class="text-sm font-semibold leading-tight py-2 px-4 bg-blue-400 rounded-2xl text-white">Detail </a>
+                                                    <a href="/sefest/competition-participant/{{$user->id}}" wire:navigate class="text-sm font-semibold leading-tight py-2 px-4 bg-blue-400 rounded-2xl text-white">Detail </a>
                                                 </td>
                                             </tr>
                                         @endforeach

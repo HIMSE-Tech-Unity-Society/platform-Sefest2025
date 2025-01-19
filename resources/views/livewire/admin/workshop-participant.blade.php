@@ -51,12 +51,12 @@
                                     <tbody>
                                         @foreach ($participants as $user)
                                             <tr>
-                                                <td>{{$user->name}}</td>
+                                                <td>{{$user->full_name}}</td>
                                                 <td>{{$user->email}}</td>
                                                 <td>{{$user->phone}}</td>
                                                 <td>{{$user->institution}}</td>
                                                 <td>
-                                                    <a href="/dashboard/accounts/{{$user->id}}" wire:navigate class="text-sm font-semibold leading-tight py-2 px-4 bg-blue-400 rounded-2xl text-white">Detail </a>
+                                                    <a href="/sefest/workshop-participant/{{$user->id}}" wire:navigate class="text-sm font-semibold leading-tight py-2 px-4 bg-blue-400 rounded-2xl text-white">Detail </a>
                                                 </td>
                                             </tr>
                                         @endforeach

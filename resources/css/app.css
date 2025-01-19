@@ -15,3 +15,71 @@
 .oxanium{
     font-family: "Oxanium", serif;
 }
+.bg-gradient-landing-page{
+    background: linear-gradient(135deg, #1b004f, #54008b, #c700ff);
+}
+.text-weserve-grey {
+    --tw-text-opacity: 1;
+    color: rgb(93 93 124 / var(--tw-text-opacity, 1));
+  }
+
+  .text-weserve-light {
+    --tw-text-opacity: 1;
+    color: rgb(141 144 168 / var(--tw-text-opacity, 1));
+  }
+
+  .text-weserve-purple {
+    --tw-text-opacity: 1;
+    color: rgb(100 14 241 / var(--tw-text-opacity, 1));
+  }
+  .bg-weserve-yellow {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 209 90 / var(--tw-bg-opacity, 1));
+  }
+.hover\:bg-weserve-navy:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 12 46 / var(--tw-bg-opacity, 1));
+}
+@keyframes infinite-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* scrool gambar */
+.animate-infinite-scroll {
+    display: flex;
+    animation: infinite-scroll 18s linear infinite;
+}
+
+.animate-infinite-scroll:hover {
+    animation-play-state: paused;
+}
+
+
+/* Hamburger small device */
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-white;
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
+
+/* page overview hilang saat di layar small */
+@media (max-width: 640px) {
+    #overview {
+        display: none;
+    }
+}

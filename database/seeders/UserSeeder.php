@@ -14,20 +14,26 @@ class UserSeeder extends Seeder
         User::create([
             "name" => "Siyun Admin Sefest",
             "email" => "rsiyun@sefest.com",
-            "password" => Hash::make('password'),
+            "password" => Hash::make('Sefest2025'),
             "email_verified_at" => Carbon::now()
         ]);
         User::create([
             "name" => "Arasy Admin Sefest",
             "email" => "arasy@sefest.com",
-            "password" => Hash::make('password'),
+            "password" => Hash::make('Sefest2025'),
             "email_verified_at" => Carbon::now()
         ]);
         User::create([
             "name" => "Rizkyfeb Admin Sefest",
             "email" => "rizkyfeb@sefest.com",
-            "password" => Hash::make('password'),
+            "password" => Hash::make('Sefest2025'),
             "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Terrafel admin sefest",
+            "email" => "terrafel@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now(),
         ]);
         Form::create([
             "type" => "lomba",
