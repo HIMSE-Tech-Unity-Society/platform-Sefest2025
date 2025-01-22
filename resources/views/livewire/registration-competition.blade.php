@@ -1,24 +1,52 @@
 <div class="text-white md:w-[640px] w-full py-6">
     <div class="border border-[#ffffff66] bg-gradient-to-b from-[#8302B2] to-[#6907E366] p-6 rounded-lg" >
         <h1 class="montserrat-black text-xl pb-4">Form Pendaftaraan Lomba <br> SE-Festival 2025</h1>
-        <pre class="whitespace-pre-wrap poppins font-black text-sm">"Unlock Your Potential, Showcase Your Talent!"
-Hai, Kamu punya bakat di bidang teknologi? Inilah
-kesempatanmu untuk bersinar di SE-FEST 2024!
+
+@if($isClosed == 1)
+    <h2 class="font-black text-sm poppins">Form masih tertutup</h2>
+    <a href="/" class="text-blue-200 mt-2 block">Goback to landing page -></a>
+</div>
+@endif
+
+@if ($isClosed != 1)
+<pre class="whitespace-pre-wrap poppins font-black text-sm">
+"Creating Sustainable Futures with Software Solutions"
+
+Hai, Kamu punya bakat di bidang teknologi? Inilah kesempatanmu untuk bersinar di SE-FEST 2025!
 
 Kategori Lomba:
 
-Web Development: Buat website inovatif yang
-mengagumkan
-UI/UX Design: Desain antarmuka pengguna yang menarik dan intuitif
-Poster: Bawa ide kreatifmu menjadi solusi teknologi yang luar biasa
+✨ Web Development: Buat website inovatif yang mengagumkan
+🎨 UI/UX Design: Desain antarmuka pengguna yang menarik dan intuitif
+🖼  Lomba Poster: Tuangkan kreativitas dalam desain visual yang inspiratif
 
-📅 Registration: 14-29 Juni 2024
-🏆 Final Demo: 24 Juli 2024
-🎉 Exhibition & Awarding Ceremony: 27 Juli 2024
+Date:
+
+1️⃣ Registration Stage
+🔹 Registration Competition: 25 Januari - 5 Februari 2025
+
+2️⃣ Elemination Stage
+🔹 Technical Meeting Competition: 6 Februari 2025
+🔹 Elimination Stage: 6 - 10 Februari 2025
+🔹 Announce Finalis: 12 Februari 2025
+
+3️⃣ Final Stage
+🔹 Technical Meeting Finalis: 13 Februari 2025
+🔹 Final Stage: 13 - 17 Februari 2025
+🔹 Final Demo/Presentation: 18 Februari 2025
+
+🎉 Exhibition & Awarding Ceremony: 23 Februari 2024
+
+💰 Hadiah menarik menanti pemenang!
+🌐 Info lengkap dan pendaftaran di IG: @se.telkomsurabaya @himse.telkomsurabaya @event.himse
+
+Link Twibbon + Caption:
 </pre>
+<a href="https://drive.google.com/drive/folders/1EjXhvIziC5OvCdhZKYJRJjzwaDyai82E?usp=sharing" class="text-blue-400" target="_blank">https://drive.google.com/drive/folders/1EjXhvIziC5OvCdhZKYJRJjzwaDyai82E?usp=sharing</a>
 @if ($success)
     <p class="font-bold poppins mt-4 text-green-300">Data Anda telah kami simpan. Silakan tunggu konfirmasi lebih lanjut dari panitia lomba melalui email atau WhatsApp :)</p>
-    <a href="/" wire:navigate class="text-blue-200 mt-2 block">Goback to landing page -></a>
+    <a href="/" class="text-blue-200 mt-2 block">Goback to landing page -></a>
+</div>
 @endif
     </div>
     @if (!$success)
@@ -102,6 +130,43 @@ Poster: Bawa ide kreatifmu menjadi solusi teknologi yang luar biasa
                 <span class="text-sm text-red-500 pt-2">{{$message}}</span>
             @enderror
         </div>
+    @elseif($typecompetition == "poster")
+        <div class="border border-[#ffffff66] bg-[#6907E366] p-6 rounded-lg mt-2">
+            <div class="flex flex-col">
+                <label for="member1" class="montserrat-black pb-1">Nama Ketua</label>
+                <input type="text" id="member1" name="member1" wire:model='member.0.name' class="border poppins text-base border-[#FFFFFF66] bg-transparent p-2 rounded-md outline-none">
+            </div>
+            @error('form.member.0.name')
+                <span class="text-sm text-red-500 pt-2">{{$message}}</span>
+            @enderror
+        </div>
+        <div class="border border-[#ffffff66] bg-[#6907E366] p-6 rounded-lg mt-2">
+            <div class="flex flex-col">
+                <label for="member2" class="montserrat-black pb-1">Anggota 1</label>
+                <input type="text" id="member2" name="member2" wire:model='member.1.name' class="border poppins text-base border-[#FFFFFF66] bg-transparent p-2 rounded-md outline-none">
+            </div>
+            @error('form.member.1.name')
+                <span class="text-sm text-red-500 pt-2">{{$message}}</span>
+            @enderror
+        </div>
+        <div class="border border-[#ffffff66] bg-[#6907E366] p-6 rounded-lg mt-2">
+            <div class="flex flex-col">
+                <label for="school1" class="montserrat-black pb-1">Asal Sekolah Ketua</label>
+                <input type="text" id="school1" name="school1" wire:model='member.0.asalsekolah' class="border poppins text-base border-[#FFFFFF66] bg-transparent p-2 rounded-md outline-none">
+            </div>
+            @error('form.member.0.asalsekolah')
+                <span class="text-sm text-red-500 pt-2">{{$message}}</span>
+            @enderror
+        </div>
+        <div class="border border-[#ffffff66] bg-[#6907E366] p-6 rounded-lg mt-2">
+            <div class="flex flex-col">
+                <label for="school2" class="montserrat-black pb-1">Asal Sekolah Anggota 1</label>
+                <input type="text" id="school2" name="school2" wire:model='member.1.asalsekolah' class="border poppins text-base border-[#FFFFFF66] bg-transparent p-2 rounded-md outline-none">
+            </div>
+            @error('form.member.1.asalsekolah')
+                <span class="text-sm text-red-500 pt-2">{{$message}}</span>
+            @enderror
+        </div>
     @else
         <div class="border border-[#ffffff66] bg-[#6907E366] p-6 rounded-lg mt-2">
             <div class="flex flex-col">
@@ -161,5 +226,6 @@ Poster: Bawa ide kreatifmu menjadi solusi teknologi yang luar biasa
         <button type="button" wire:click='resetform' class="text-[#6907E3] bg-white border-2 border-[#6907E3] mt-4 font-bold montserrat-black py-2 px-4 rounded-lg">Reset</button>
     </div>
 </form>
+@endif
 @endif
 </div>

@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Livewire\Forms\FormWorkshopCreate;
+use App\Models\Form;
 use App\Models\RegistrationWorkshop as ModelsRegistrationWorkshop;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Attributes\Title;
@@ -18,6 +19,7 @@ class RegistrationWorkshop extends Component
     public FormWorkshopCreate $form;
     public $pdfload;
     public $success = false;
+    public $isClosed;
     public function render()
     {
         if ($this->form->proof_of_payment) {
@@ -26,6 +28,7 @@ class RegistrationWorkshop extends Component
         return view('livewire.registration-workshop');
     }
     public function mount(){
+        $this->isClosed = Form::find(1)->isClosed;
         $this->form->name = session()->get('form_workshop.name', '');
         $this->form->email = session()->get('form_workshop.email', '');
         $this->form->institution = session()->get('form_workshop.institution', '');
@@ -42,6 +45,9 @@ class RegistrationWorkshop extends Component
         }
     }
     public function save(){
+        if ($this->isClosed == 1) {
+            return;
+        }
         if (!$this->form->proof_of_payment) {
             $this->form->proof_of_payment = $this->pdfload;
         }

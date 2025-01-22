@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Livewire\Forms\FormCompetitionCreate;
+use App\Models\Form;
 use App\Models\RegistrationCompetition as ModelsRegistrationCompetition;
 use Livewire\Attributes\Title;
 use Livewire\Component;
@@ -14,7 +15,9 @@ class RegistrationCompetition extends Component
     public $member = [];
     public $typecompetition;
     public $success = false;
+    public $isClosed;
     public function mount(){
+        $this->isClosed = Form::find(1)->isClosed;
         $member = [
             ["name" => "", "asalsekolah" => ""],
             ["name" => "", "asalsekolah" => ""],
@@ -49,6 +52,9 @@ class RegistrationCompetition extends Component
         return view('livewire.registration-competition');
     }
     public function save(){
+        if ($this->isClosed == 1) {
+            return;
+        }
         $this->form->member = $this->member;
         // dd($this->form->member);
         $this->form->typecompetition = $this->typecompetition;

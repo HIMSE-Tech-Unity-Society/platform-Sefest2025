@@ -1,7 +1,15 @@
 <div class="text-white md:w-[640px] w-full py-6">
     <div class="border border-[#ffffff66] bg-gradient-to-b from-[#8302B2] to-[#6907E366] p-6 rounded-lg" >
         <h1 class="montserrat-black text-xl pb-4">Form Pendaftaran Workshop <br> SE-Festival 2025</h1>
-        <pre class="whitespace-pre-wrap poppins font-black text-sm">⚠️WORKSHOP DILAKSANAKAN SECARA HYBRID OFFLINE serta ONLINE⚠️
+
+@if($isClosed == 1)
+<h2 class="font-black text-sm poppins">Form masih tertutup</h2>
+<a href="/" class="text-blue-200 mt-2 block">Goback to landing page -></a>
+</div>
+@endif
+@if ($isClosed != 1)
+        <pre class="whitespace-pre-wrap poppins font-black text-sm">
+⚠️WORKSHOP DILAKSANAKAN SECARA HYBRID OFFLINE serta ONLINE⚠️
 😉Ketersediaan Tempat Terbatas!! First Come, First Serve!!😉
 
 
@@ -47,7 +55,8 @@ Peserta Online (Bukti Pembayaran)
 </pre>
 @if ($success)
     <p class="font-bold poppins mt-4 text-green-300">Data Anda telah kami simpan. Silakan tunggu konfirmasi lebih lanjut dari panitia lomba melalui email atau WhatsApp :)</p>
-    <a href="/" wire:navigate class="text-blue-200 mt-2 block">Goback to landing page -></a>
+    <a href="/" class="text-blue-200 mt-2 block">Goback to landing page -></a>
+</div>
 @endif
     </div>
     @if (!$success)
@@ -184,5 +193,6 @@ Peserta Online (Bukti Pembayaran)
                 <button type="button" wire:click='resetform' class="text-[#6907E3] bg-white border-2 border-[#6907E3] mt-4 font-bold montserrat-black py-2 px-4 rounded-lg">Reset</button>
             </div>
         </form>
+    @endif
     @endif
 </div>
