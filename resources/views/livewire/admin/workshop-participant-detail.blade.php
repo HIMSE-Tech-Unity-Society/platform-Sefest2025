@@ -33,7 +33,7 @@
                         </div>
                         <div class="flex gap-4">
                             <h4 class="text-sm md:text-lg font-normal">Kategori Peserta</h4>
-                            <h4 class="text-sm md:text-lg font-normal">: @if ($data->participant_category == "umum") Umum (IDR 25.000,00) @endif @if ($data->type == "internal") Mahasiswa Internal TUS (IDR 20.000,00) @endif @if ($data->type == "shs") Pelajar SMA/SMK/MA dan Sederajat (IDR 15.000,00) @endif @if ($data->type == "online") Peserta Online (IDR 20.000,00) @endif</h4>
+                            <h4 class="text-sm md:text-lg font-normal">: @if ($data->participant_category == "umum") Umum (IDR 30.000,00) @endif @if ($data->type == "internal") Mahasiswa Internal TUS (IDR 25.000,00) @endif @if ($data->type == "shs") Pelajar SMA/SMK/MA dan Sederajat (IDR 20.000,00) @endif @if ($data->type == "online") Peserta Online (IDR 28.000,00) @endif</h4>
                         </div>
                         <div class="pt-4">
                             <embed class="w-full h-[500px]" src="{{ asset('storage/payments').'/'. $data->proof_of_payment }}" type="application/pdf">

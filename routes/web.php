@@ -7,6 +7,7 @@ use App\Livewire\Admin\Dashboard;
 use App\Livewire\Admin\WorkshopParticipant;
 use App\Livewire\Admin\WorkshopParticipantDetail;
 use App\Livewire\Auth\Login;
+use App\Livewire\Merch;
 use App\Livewire\RegistrationCompetition;
 use App\Livewire\RegistrationWorkshop;
 use Illuminate\Support\Facades\Route;
@@ -17,6 +18,7 @@ Route::get('/', function () {
 Route::get('/form/registrasi/lomba', RegistrationCompetition::class);
 Route::get('/form/registrasi/workshop', RegistrationWorkshop::class);
 Route::get('/auth/login', Login::class)->name('login');
+Route::get('/merch', Merch::class)->name('merch');
 Route::middleware('auth')->prefix('/sefest')->group(function (){
     Route::get('/competition-participant', CompetitionParticipant::class);
     Route::get('/workshop-participant', WorkshopParticipant::class);

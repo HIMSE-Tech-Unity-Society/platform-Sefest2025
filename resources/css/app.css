@@ -15,30 +15,11 @@
 .oxanium{
     font-family: "Oxanium", serif;
 }
+.font-clash-display {
+    font-family: Clash Display, sans-serif;
+  }
 .bg-gradient-landing-page{
     background: linear-gradient(135deg, #1b004f, #54008b, #c700ff);
-}
-.text-weserve-grey {
-    --tw-text-opacity: 1;
-    color: rgb(93 93 124 / var(--tw-text-opacity, 1));
-  }
-
-  .text-weserve-light {
-    --tw-text-opacity: 1;
-    color: rgb(141 144 168 / var(--tw-text-opacity, 1));
-  }
-
-  .text-weserve-purple {
-    --tw-text-opacity: 1;
-    color: rgb(100 14 241 / var(--tw-text-opacity, 1));
-  }
-  .bg-weserve-yellow {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 209 90 / var(--tw-bg-opacity, 1));
-  }
-.hover\:bg-weserve-navy:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(8 12 46 / var(--tw-bg-opacity, 1));
 }
 @keyframes infinite-scroll {
     0% {

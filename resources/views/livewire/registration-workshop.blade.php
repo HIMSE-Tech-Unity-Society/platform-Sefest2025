@@ -8,53 +8,74 @@
 </div>
 @endif
 @if ($isClosed != 1)
-        <pre class="whitespace-pre-wrap poppins font-black text-sm">
-⚠️WORKSHOP DILAKSANAKAN SECARA HYBRID OFFLINE serta ONLINE⚠️
-😉Ketersediaan Tempat Terbatas!! First Come, First Serve!!😉
+<pre class="whitespace-pre-wrap poppins font-medium text-sm">
+<span class="font-black text-center">⚠️ WORKSHOP DILAKSANAKAN SECARA HYBRID OFFLINE serta ONLINE⚠️
+😉Ketersediaan Tempat Terbatas!! First Come, First Serve!!😉</span>
 
+Berikut merupakan Registrasi Pendaftaran Workshop SEFEST 2025 yang akan dibuka dari Hari Sabtu, 25 Januari 2025 Hingga Hari Jumat, 21 Februari 2025. Workshop akan Dilaksanakan dengan Rincian Sebagai Berikut:
 
-Berikut merupakan Registrasi Pendaftaran Workshop SEFEST 2024 yang akan dibuka dari Hari Sabtu, 6 Juli 2024 Hingga Hari Jumat, 26 Juli 2024. Workshop akan Dilaksanakan dengan Rincian Sebagai Berikut:
-📅: Sabtu, 27 Juli 2024
-⏰: 09.00 - 15.30 WIB
-📍: Offline Aula Gedung Utama Telkom University Surabaya & Online Zoom Meeting
+<span class="font-black inline-block mb-1">📅 : Minggu, 23 Februari 2025</span>
+<span class="font-black inline-block mb-1">⏰ : 09.00 - 15.30 WIB</span>
+<span class="font-black inline-block mb-1">📍: Offline Aula Gedung UtamaTelkom University Surabaya dan Online Zoom Meeting</span>
 
-Semua peserta akan mendapatkan Benefit, yaitu sebagai berikut:
-Pemahaman mendalam serta keterampilan praktis dalam Software Testing;
-E-Sertifikat;
-Snack selama berjalannya Acara Workshop (Kecuali Peserta Online); serta
-Menambah Relasi.
+<span class="font-black mb-1 inline-block">Semua peserta akan mendapatkan Benefit, yaitu sebagai berikut:</span>
+1. Mendapat insight, Ilmu, dan keterampilan yang bermanfaat Seputar React JS
+2. E-Sertifikat
+3. Snack selama berjalannya Acara Workshop (Offline)
+4. Menambah Portfolio Professional Pribadi
+5. Menambah Relasi
+6. Konsultasi Kepada Mentor Professional
 
+Workshop <span class="italic font-bold">"Sustainable Innovation: Full-Stack Development React Application"</span> berikut dibuka untuk Umum, dengan Ketentuan Harga sebagai berikut:
 
-Workshop "Mastering Software Testing: From Theory to Practice" berikut dibuka untuk Umum, dengan Ketentuan Harga sebagai berikut:  1. Umum: PROMO! (70k) to (50k) 2. Mahasiswa Internal TUS: PROMO! (60k) to (40k)  3. Mahasiswa Eksternal: PROMO! (50K) to (30k)  4.  Pelajar SMA/SMK/MA: 25k 5.  Peserta Online: PROMO! (25k) to (15k) (NOTE: PROMO DIPERPANJANG HINGGA TANGGAL 20 JUNI 2024!)  
+OFFLINE:
+1. Umum: 30k
+2. Mahasiswa Internal TUS: 25k
+3. Pelajar SMA/SMK/MA: 20k
+
+ONLINE:
+1.  Peserta Online: 28k (Umum dan Siswa)
+( NOTE: Mahasiswa TEL-U Surabaya WAJIB menghadiri workshop secara offline )
+
 Pembayaran Dapat dilakukan pada Tujuan berikut:
 Rekening Bank
-a/n YEMIMA ALDA PUTURUHU
-Bank Mandiri
-1440022243403
+BCA: <span class="font-black">6225056891</span> a/n Alif Akbar Ramadhan
+BNI: <span class="font-black">1816725843</span> a/n Mufid Nursirot Jati
 
-E money
-Gopay: 082139678323  a/n YEMIMA ALDA PUTURUHU
-LINKAJA: 082139678323  a/n YEMIMA ALDA PUTURUHU
-DANA: 082139678323  a/n YEMIMA ALDA PUTURUHU
+E-Money
+Gopay: <span class="font-black">081230389254</span>  a/n MUFID NURSIROT JATI
+OVO: <span class="font-black">081230389254</span>  a/n MUFID NURSIROT JATI
+DANA: <span class="font-black">081230389254</span>  a/n MUFID NURSIROT JATI
 
-
-⚠️Uang yang telah dibayarkan tidak dapat dikembalikan⚠️
-
-
+<span class="font-black">⚠️Uang yang telah dibayarkan tidak dapat dikembalikan⚠️</span>
 
 Registrasi Workshop berikut memerlukan beberapa Tanda Bukti pada Kategori Peserta yang dipilih, yaitu sebagai berikut:
-
-Umum (Bukti Pembayaran)
-Mahasiswa Internal TUS (Bukti Pembayaran; Kartu Tanda Mahasiswa TUS)
-Mahasiswa Eksternal (Bukti Pembayaran; Kartu Tanda Mahasiswa)
-Pelajar SMA/SMK/MA dan Sederajat (Bukti Pembayaran; Kartu Pelajar Aktif)
-Peserta Online (Bukti Pembayaran)
-
+<span class="font-black">• Umum (Bukti Pembayaran)</span>
+<span class="font-black">• Mahasiswa Internal TUS (Bukti Pembayaran; Kartu Tanda Mahasiswa TUS)</span>
+<span class="font-black">• Pelajar SMA/SMK/MA dan Sederajat (Bukti Pembayaran; Kartu Pelajar Aktif)</span>
+<span class="font-black">• Peserta Online (Bukti Pembayaran)</span>
 
 👋🏻Get your Seat, and See you Soon!! 👋🏻
+
+Contact Person :
+Rere : <a href="http://wa.me/6285708830732" class="inline-block break-all text-blue-400 font-medium" target="_blank">http://wa.me/6285708830732</a>
+Rara : <a href="http://wa.me/628895607451" class="inline-block break-all text-blue-400 font-medium" target="_blank">http://wa.me/628895607451</a>
 </pre>
 @if ($success)
-    <p class="font-bold poppins mt-4 text-green-300">Data Anda telah kami simpan. Silakan tunggu konfirmasi lebih lanjut dari panitia lomba melalui email atau WhatsApp :)</p>
+<pre class="whitespace-pre-wrap poppins font-black text-sm">
+Terima kasih telah mendaftar Workshop SE-FEST 2025!,
+
+Diharapkan segera join ke grup nya yaa..
+
+Link Group Workshop:
+<a href="https://chat.whatsapp.com/BU39OVPIt2iFFpYtpjHOjG" class="inline-block break-all text-blue-400 font-medium" target="_blank">https://chat.whatsapp.com/BU39OVPIt2iFFpYtpjHOjG</a>
+
+NOTE: untuk membantu kelancaran bergabung dalam grup, harap username WA diubah sementara ya kak
+
+Format: nama_asalsekolah / nama_institusi
+
+Terima kasih kak, atas partisipasinya😊🙏
+</pre>
     <a href="/" class="text-blue-200 mt-2 block">Goback to landing page -></a>
 </div>
 @endif

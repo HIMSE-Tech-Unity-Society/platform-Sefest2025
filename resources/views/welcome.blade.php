@@ -62,6 +62,7 @@
                     <li><a href="#about" class="text-base sm:text-white text-black py-2 mx-8 flex hover:text-purple-500 transition duration-500 ease-in-out">About</a></li>
                     <li><a href="#competition" class="text-base sm:text-white text-black py-2 mx-8 flex hover:text-purple-500 transition duration-500 ease-in-out">Competition</a></li>
                     <li><a href="#workshop" class="text-base sm:text-white text-black py-2 mx-8 flex hover:text-purple-500 transition duration-500 ease-in-out">Workshop</a></li>
+                    <li><a href="/merch" class="text-base sm:text-white text-black py-2 mx-8 flex hover:text-purple-500 transition duration-500 ease-in-out">Merch</a></li>
                 </ul>
             </div>
         </nav>
@@ -332,6 +333,132 @@
                             <a href="/form/registrasi/workshop" class="bg-[#640EF1] rounded-full px-10 py-4 font-bold text-[18px] text-white w-full sm:w-auto text-center hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
                                 Get Ticket Workshop
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="timeline" class="max-w-[1280px] w-full overflow-hidden mx-auto mt-[15px] pt-10 px-5 sm:px-[75px]">
+                <div class="flex flex-col sm:flex-row gap-6 sm:gap-[70px] items-center sm:items-start">
+                    <div class="flex flex-col gap-6 w-full sm:w-[500px]">
+                        <div class="flex flex-col gap-5">
+                            <h2 class="text-[40px] sm:text-[46px] font-semibold text-white">Timeline Lomba</h2>
+                            <p class="font-medium leading-[24px] sm:leading-[32px] text-[#a7a7c6]">
+                                Lomba Sefest 2025 <br> "Creating Sustainable Futures with Software Solutions"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[500px] h-[300px] sm:h-[550px] shrink-0 overflow-hidden">
+                        <div id="bodyDetailPengiriman" class="flex justify-center pb-4 pt-9 items-center text-white">
+                            <ul role="list" class="-mb-8" id="tracking-order">
+                                <li>
+                                    <div class="flex flex-row gap-4">
+                                        <div class="flex flex-col text-end mt-[-16px] md:w-52 w-40">
+                                            <span class="text-sm font-semibold">Soft Opening Sefest 2025</span>
+                                            <span class="nowrap text-sm">24 Januari 2025</span>
+                                        </div>
+                                        <div class="relative pb-8 md:pb-16">
+                                            <span class="pipe absolute left-1.5 top-3 -ml-px h-full w-0.5 bg-white" aria-hidden="true"></span>
+                                            <div class="relative">
+                                                <div>
+                                                    <span class="bullet h-3 w-3 rounded-full bg-white flex items-center justify-center z-1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col text-start mt-[-16px] min-w-40 md:min-w-52">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="flex flex-row gap-4">
+                                        <div class="flex flex-col text-end mt-[-16px] min-w-40 md:min-w-52">
+                                        </div>
+                                        <div class="relative pb-8 md:pb-16">
+                                            <span class="pipe absolute left-1.5 top-3 -ml-px h-full w-0.5 bg-white" aria-hidden="true"></span>
+                                            <div class="relative">
+                                                <div>
+                                                    <span class="bullet h-3 w-3 rounded-full bg-white flex items-center justify-center z-1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col text-start mt-[-16px] md:w-52 w-40">
+                                            <span class="text-sm font-semibold">Registrasi Lomba Sefest 2025</span>
+                                            <span class="nowrap text-sm">25 Januari - 5 Februari 2025</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="flex flex-row gap-4">
+                                        <div class="flex flex-col text-end mt-[-16px] md:w-52 w-40">
+                                            <span class="text-sm font-semibold">Registrasi Workshop</span>
+                                            <span class="nowrap text-sm">25 Januari - 21 Februari 2025</span>
+                                        </div>
+                                        <div class="relative pb-8 md:pb-16">
+                                            <span class="pipe absolute left-1.5 top-3 -ml-px h-full w-0.5 bg-white" aria-hidden="true"></span>
+                                            <div class="relative">
+                                                <div>
+                                                    <span class="bullet h-3 w-3 rounded-full bg-white flex items-center justify-center z-1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col text-start mt-[-16px] min-w-40 md:min-w-52">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="flex flex-row gap-4">
+                                        <div class="flex flex-col text-end mt-[-16px] min-w-40 md:min-w-52">
+                                        </div>
+                                        <div class="relative pb-8 md:pb-16">
+                                            <span class="pipe absolute left-1.5 top-3 -ml-px h-full w-0.5 bg-white" aria-hidden="true"></span>
+                                            <div class="relative">
+                                                <div>
+                                                    <span class="bullet h-3 w-3 rounded-full bg-white flex items-center justify-center z-1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col text-start mt-[-16px] md:w-52 w-40">
+                                            <span class="text-sm font-semibold">Eliminitation Stage</span>
+                                            <span class="nowrap text-sm">6 Februari - 20 Februari 2025</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="flex flex-row gap-4">
+                                        <div class="flex flex-col text-end mt-[-16px] md:w-52 w-40">
+                                            <span class="text-sm font-semibold">Final Stage</span>
+                                            <span class="nowrap text-sm">13 Januari - 20 Februari 2025</span>
+                                        </div>
+                                        <div class="relative pb-8 md:pb-16">
+                                            <span class="pipe absolute left-1.5 top-3 -ml-px h-full w-0.5 bg-white" aria-hidden="true"></span>
+                                            <div class="relative">
+                                                <div>
+                                                    <span class="bullet h-3 w-3 rounded-full bg-white flex items-center justify-center z-1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col text-start mt-[-16px] min-w-40 md:min-w-52">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="flex flex-row gap-4">
+                                        <div class="flex flex-col text-end mt-[-16px] min-w-40 md:min-w-52">
+                                        </div>
+                                        <div class="relative pb-8 md:pb-16">
+                                            {{-- <span class="pipe absolute left-1.5 top-3 -ml-px h-full w-0.5 bg-white" aria-hidden="true"></span> --}}
+                                            <div class="relative">
+                                                <div>
+                                                    <span class="bullet h-3 w-3 rounded-full bg-white flex items-center justify-center z-1"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col text-start mt-[-16px] md:w-52 w-40">
+                                            <span class="text-sm font-semibold">Exhibition, Awarding dan Workshop</span>
+                                            <span class="nowrap text-sm">23 Februari 2025</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -619,14 +746,14 @@
         <!-- tombol contact person -->
         <div id="contactperson" class="hidden fixed right-10 bottom-12 space-y-4 z-[9999]">
             <!-- Contact Person 1 -->
-            <a href="https://wa.link/3nku47" class="flex items-center gap-1 pl-10 p-4 h-14 w-60 rounded-full bg-white hover:animate-pulse shadow-lg ">
+            <a href="https://wa.link/3nku47" class="flex items-center gap-1 pl-10 p-4 h-14 w-full rounded-full bg-white hover:animate-pulse shadow-lg ">
                 <img src="{{asset('asset/images/icons/whatsapp.svg')}}" alt="WhatsApp" class="h-6 w-6">
-                <span class="text-sm font-medium leading-tight text-gray-800 pl-2">Contact Person Aurell</span>
+                <span class="text-sm font-medium leading-tight text-gray-800 pl-2">Contact Person Admin 1</span>
             </a>
             <!-- Contact Person 2 -->
-            <a href="https://wa.link/yhl4zz" class="flex items-center gap-1 pl-10 h-14 w-60 rounded-full bg-white hover:animate-pulse shadow-lg">
+            <a href="https://wa.link/yhl4zz" class="flex items-center gap-1 pl-10 h-14 w-full rounded-full bg-white hover:animate-pulse shadow-lg">
                 <img src="{{asset('asset/images/icons/whatsapp.svg')}}" alt="WhatsApp" class="h-6 w-6">
-                <span class="text-sm font-medium leading-tight text-gray-800 pl-2">Contact Person Mira</span>
+                <span class="text-sm font-medium leading-tight text-gray-800 pl-2">Contact Person Admin 2</span>
             </a>
         </div>
 

@@ -14,6 +14,14 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'weserve-purple' : "#640EF1",
+                'weserve-navy' : '#080C2E',
+                'weserve-grey' : '#5D5D7C',
+                'weserve-yellow' : '#FFD15A',
+                'weserve-light' : '#8D90A8'
+              },
+              display: ["group-hover"],
         },
     },
     plugins: [],

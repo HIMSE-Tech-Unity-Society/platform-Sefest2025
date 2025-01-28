@@ -35,13 +35,59 @@ class UserSeeder extends Seeder
             "password" => Hash::make('Sefest2025'),
             "email_verified_at" => Carbon::now(),
         ]);
-        Form::create([
-            "type" => "lomba",
-            "isClosed" => 1
+        User::create([
+            "name" => "Mufid Admin Sefest",
+            "email" => "mufid@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
         ]);
-        Form::create([
-            "type" => "workshop",
-            "isClosed" => 1
+        User::create([
+            "name" => "Evi Admin Sefest",
+            "email" => "evi@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Alif Admin Sefest",
+            "email" => "alif@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Aurel Admin Sefest",
+            "email" => "aurel@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Mira Admin Sefest",
+            "email" => "mira@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Amanda Admin Sefest",
+            "email" => "amanda@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Debby Admin Sefest",
+            "email" => "debby@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Dewa Admin Sefest",
+            "email" => "dewa@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
+        ]);
+        User::create([
+            "name" => "Faizah Admin Sefest",
+            "email" => "faizah@sefest.com",
+            "password" => Hash::make('Sefest2025'),
+            "email_verified_at" => Carbon::now()
         ]);
 
     }

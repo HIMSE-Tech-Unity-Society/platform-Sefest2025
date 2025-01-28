@@ -22,15 +22,15 @@ Kategori Lomba:
 
 Date:
 
-1️⃣ Registration Stage
-🔹 Registration Competition: 25 Januari - 5 Februari 2025
+1. Registration Stage
+🔹 Registration Competition: 25 Januari hingga 5 Februari 2025
 
-2️⃣ Elemination Stage
+2. Elemination Stage
 🔹 Technical Meeting Competition: 6 Februari 2025
 🔹 Elimination Stage: 6 - 10 Februari 2025
 🔹 Announce Finalis: 12 Februari 2025
 
-3️⃣ Final Stage
+3. Final Stage
 🔹 Technical Meeting Finalis: 13 Februari 2025
 🔹 Final Stage: 13 - 17 Februari 2025
 🔹 Final Demo/Presentation: 18 Februari 2025
@@ -40,11 +40,29 @@ Date:
 💰 Hadiah menarik menanti pemenang!
 🌐 Info lengkap dan pendaftaran di IG: @se.telkomsurabaya @himse.telkomsurabaya @event.himse
 
-Link Twibbon + Caption:
 </pre>
-<a href="https://drive.google.com/drive/folders/1EjXhvIziC5OvCdhZKYJRJjzwaDyai82E?usp=sharing" class="text-blue-400" target="_blank">https://drive.google.com/drive/folders/1EjXhvIziC5OvCdhZKYJRJjzwaDyai82E?usp=sharing</a>
+<a href="https://drive.google.com/drive/folders/1EjXhvIziC5OvCdhZKYJRJjzwaDyai82E?usp=sharing" class="text-blue-400 text-wrap" target="_blank">Link Twibbon + Caption</a>
 @if ($success)
-    <p class="font-bold poppins mt-4 text-green-300">Data Anda telah kami simpan. Silakan tunggu konfirmasi lebih lanjut dari panitia lomba melalui email atau WhatsApp :)</p>
+<pre class="whitespace-pre-wrap poppins font-black text-sm">
+Terima kasih telah mendaftar Lomba SE-FEST 2025!,
+
+Diharapkan segera join ke grup yang kalian daftar lomba nya yaa..
+
+Link Group Web Development:
+<a href="https://chat.whatsapp.com/Hkzs54uU04OFRomvK3OcC9" class="inline-block break-all text-blue-400 font-medium" target="_blank">https://chat.whatsapp.com/Hkzs54uU04OFRomvK3OcC9</a>
+
+Link Group UI/UX Design:
+<a href="https://chat.whatsapp.com/Ee7xFn8f0lRKFlLJlC6hQi" class="inline-block break-all text-blue-400 font-medium" target="_blank">https://chat.whatsapp.com/Ee7xFn8f0lRKFlLJlC6hQi</a>
+
+Link Group Poster Challenge:
+<a href="https://chat.whatsapp.com/BCkByp0rlRv6SGtt8WwkzB" class="inline-block break-all text-blue-400 font-medium" target="_blank">https://chat.whatsapp.com/BCkByp0rlRv6SGtt8WwkzB</a>
+
+NOTE: untuk membantu kelancaran bergabung dalam grup, harap username WA diubah sementara ya kak
+
+Format: team_nama_asal sekolah
+
+Terima kasih kak, atas partisipasinya😊🙏
+</pre>
     <a href="/" class="text-blue-200 mt-2 block">Goback to landing page -></a>
 </div>
 @endif
@@ -53,7 +71,7 @@ Link Twibbon + Caption:
     <form wire:submit='save'>
     <div class="border border-[#ffffff66] bg-[#6907E366] p-6 rounded-lg mt-2">
         <div class="flex flex-col">
-            <label for="" class="montserrat-black">Jenis Lomba</label>
+            <label for="typecompetiton" class="montserrat-black">Jenis Lomba</label>
             <div class="border border-[#ffffff66] rounded-lg p-2">
                 <select name="typecompetiton" wire:model.live='typecompetition' id="typecompetiton" class="bg-transparent outline-none w-full">
                     <option value="webdev" class="bg-[#6907E3]">Web development</option>
